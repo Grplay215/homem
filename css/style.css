@@ -1,0 +1,301 @@
+:root{
+    --primary-color:#FFCC00;
+    --secundary-color: #646464;
+    --terceira-color: #AA50DB;
+}
+body{
+    height: 100vh;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+
+    
+    
+}
+
+main{
+    
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    object-fit: cover;
+}
+
+
+.homem{
+    z-index: -999999999999999999999;
+    position: absolute;
+    font-size: 30vw;
+    color: #00000055;
+    top: 54%;
+    left: 76%;
+    transform: translate(-67%, -50%);
+    height: auto;
+    width: 120%;
+    display: flex;
+
+
+}
+.aranha{
+    position: absolute;
+    font-size: 100vh;
+    color: #ffffff55;
+    z-index: -99;
+    top: 55%;
+    left: 40%;
+    transform: translate(-73%, -106%);
+    width: auto;
+    height: 300px;
+}
+
+.fundo{
+    position: absolute;
+    transform: translate(-9000000%, -46%);
+}
+.simbolo{
+    z-index: -999;
+    position: absolute;
+    font-size: 100vw;
+    color: #00000055;
+    top: 54%;
+    left: 50%;
+    transform: translate(-580%, -610%);
+    height: auto;
+    width: 200px;
+}
+.estrela{
+    position: absolute;
+    font-size: 100vw;
+    color: #00000055;
+    top: 54%;
+    left: 50%;
+    transform: translate(-820%, 554%);
+    height: auto;
+    width: 9pz;
+}
+
+.rete{
+    position: absolute;
+    font-size: 100vw;
+    color: #00000055;
+    top: 54%;
+    left: 50%;
+    transform: translate(-340%, 500%);
+    height: auto;
+    width: 10%;
+}
+
+.popular{
+    position: absolute;
+    font-size: 100vw;
+    color: #00000055;
+    top: 54%;
+    left: 50%;
+    transform: translate(-320%, 520%);
+    height: auto;
+    width: 10pz;
+}
+
+.play{
+    position: absolute;
+    font-size: 100vw;
+    color: #00000055;
+    top: 54%;
+    left: 50%;
+    transform: translate(-550%, 1666%);
+    height: auto;
+    width: 10pz;
+}
+
+.trailer{
+    position: absolute;
+    font-size: 100vw;
+    color: #00000055;
+    top: 54%;
+    left: 50%;
+    transform: translate( -400%, 1665%);
+    height: auto;
+    width: 10pz;
+}
+
+.compartilhar{
+    position: absolute;
+    font-size: 100vw;
+    color: #00000055;
+    top: 54%;
+    left: 50%;
+    transform: translate( 330%, -710%);
+    height: auto;
+    width: 10pz;
+}
+/** 1728 x 1117 **/
+
+
+/* 768 x 1024 */
+@media (max-width: 1024px){
+.homem{
+    position: absolute;
+    font-size: 30vw;
+    color: #00000055;
+    top: 54%;
+    left: 76%;
+    transform: translate(-51%, -51%);
+    height: auto;
+    width: 220%;
+}
+
+.aranha{
+    position: absolute;
+    font-size: 30vw;
+    color: #00000055;
+    top: 54%;
+    left: 76%;
+    transform: translate( -58%, -81%);
+    height: auto;
+    width: 950px;
+}
+
+.compartilhar{
+    position: absolute;
+    font-size: 30vw;
+    color: #00000055;
+    top: 54%;
+    left: 76%;
+    transform: translate(  118%, -621%);
+    height: auto;
+}
+
+.estrela{
+    position: absolute;
+    font-size: 30vw;
+    color: #00000055;
+    top: 54%;
+    left: 76%;
+    transform: translate(  -580%, 300%);
+    height: auto;
+}
+
+.rete{
+    position: absolute;
+    font-size: 30vw;
+    color: #00000055;
+    top: 54%;
+    left: 76%;
+    transform: translate(  -341%, 451%);
+    height: auto;
+    width: 150px;
+}
+
+.popular{
+    position: absolute;
+    font-size: 30vw;
+    color: #00000055;
+    top: 54%;
+    left: 76%;
+    transform: translate(  -374%, 550%);
+    height: auto;
+
+}
+
+.simbolo{
+    position: absolute;
+    font-size: 30vw;
+    color: #00000055;
+    top: 54%;
+    left: 76%;
+    transform: translate(  -369%, -630%);
+    height: auto;
+    width: 150px;
+
+}
+
+.play{
+    position: absolute;
+    font-size: 30vw;
+    color: #00000055;
+    top: 54%;
+    left: 76%;
+    transform: translate(  -210%, 930%);
+    height: auto;
+    width: 260px;
+}
+
+.trailer{
+    position: absolute;
+    font-size: 30vw;
+    color: #00000055;
+    top: 54%;
+    left: 76%;
+    transform: translate(  -60%, 930%);
+    height: auto;
+    width: 260px;
+
+}
+
+}
+
+
+/* 375 x 667 */
+@media (max-width: 640px){
+.aranha{
+    display: none;
+}
+
+.fundo{
+    position: absolute;
+    transform: translate(  -16%, 170%);
+    height: auto;
+    width: 187px;
+}
+
+.simbolo{
+    position: absolute;
+    transform: translate(  -309%, -770%);
+    height: auto;
+    width: 80px;
+}
+
+.homem{
+    position: absolute;
+    font-size: 30vw;
+    color: #00000055;
+    top: 54%;
+    left: 76%;
+    transform: translate(-51%, -57%);
+    height: auto;
+    width: 260%;
+}
+
+.compartilhar{
+    position: absolute;
+    transform: translate(  -309%, -770%);
+    height: auto;
+    width: 80px;
+}
+
+.estrela{
+    position: absolute;
+    transform: translate(  -309%, -770%);
+    height: auto;
+    width: 80px;
+}
+
+.rete{
+    position: absolute;
+    transform: translate(  -309%, -770%);
+    height: auto;
+    width: 80px;
+}
+
+.popular{
+    position: absolute;
+    transform: translate(  -309%, -770%);
+    height: auto;
+    width: 80px;
+}
+
+
+
+
+}
