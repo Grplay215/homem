@@ -30,9 +30,9 @@ main{
     color: #00000055;
     top: 54%;
     left: 76%;
-    transform: translate(-67%, -50%);
+    transform: translate(-74%, -54.2%);
     height: auto;
-    width: 120%;
+    width: 2369px;
     display: flex;
 
 
@@ -44,14 +44,18 @@ main{
     z-index: -99;
     top: 55%;
     left: 40%;
-    transform: translate(-73%, -106%);
+    transform: translate(-83%, -36%);
     width: auto;
-    height: 300px;
+    height: 100px;
 }
 
 .fundo{
+    z-index: -999;
     position: absolute;
-    transform: translate(-9000000%, -46%);
+    transform: translate(9%, 80%);
+    height: auto;
+    width: 900px;
+    
 }
 .simbolo{
     z-index: -999;
@@ -60,9 +64,9 @@ main{
     color: #00000055;
     top: 54%;
     left: 50%;
-    transform: translate(-580%, -610%);
+    transform: translate(-448%, -470%);
     height: auto;
-    width: 200px;
+    width: 250px;
 }
 .estrela{
     position: absolute;
@@ -70,7 +74,7 @@ main{
     color: #00000055;
     top: 54%;
     left: 50%;
-    transform: translate(-1320%, 454%);
+    transform: translate(-1150%, 454%);
     height: auto;
     width: 9pz;
 }
@@ -81,9 +85,9 @@ main{
     color: #00000055;
     top: 54%;
     left: 50%;
-    transform: translate(-340%, 500%);
+    transform: translate(-550%, 440%);
     height: auto;
-    width: 10%;
+    width: 160px;
 }
 
 .popular{
@@ -92,7 +96,7 @@ main{
     color: #00000055;
     top: 54%;
     left: 50%;
-    transform: translate(-642%, 425%);
+    transform: translate(-542%, 425%);
     height: auto;
     width: 10pz;
 }
