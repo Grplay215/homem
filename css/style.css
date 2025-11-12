@@ -133,7 +133,10 @@ main{
     height: auto;
     width: 200px;
 }
-
+.p{
+    position: absolute;
+    transform: translate(-99999999999999999999%, -99999999999999%);
+}
 
 
 /* 768 x 1024 */
@@ -144,18 +147,19 @@ main{
     color: #00000055;
     top: 54%;
     left: 76%;
-    transform: translate(-51%, -51%);
+    transform: translate(-44%, -44.6%);
     height: auto;
-    width: 220%;
+    width: 2250px;
 }
 
 .aranha{
-    position: absolute;
-    font-size: 30vw;
+    display: none;
+}
+.p{
     color: #00000055;
     top: 54%;
     left: 76%;
-    transform: translate( -58%, -81%);
+    transform: translate( -58%, -0%);
     height: auto;
     width: 950px;
 }
@@ -166,40 +170,43 @@ main{
     color: #00000055;
     top: 54%;
     left: 76%;
-    transform: translate(  118%, -621%);
+    transform: translate(  130%, -570%);
     height: auto;
+    
 }
 
 .estrela{
     position: absolute;
-    font-size: 30vw;
+
     color: #00000055;
     top: 54%;
     left: 76%;
-    transform: translate(  -580%, 300%);
+    transform: translate(  -550%, 300%);
     height: auto;
+    width: 100px;
+    
 }
 
 .rete{
     position: absolute;
-    font-size: 30vw;
+
     color: #00000055;
     top: 54%;
     left: 76%;
-    transform: translate(  -341%, 451%);
+    transform: translate(  -278%, 390%);
     height: auto;
-    width: 150px;
+    width: 200px;
 }
 
 .popular{
     position: absolute;
-    font-size: 30vw;
+
     color: #00000055;
     top: 54%;
     left: 76%;
-    transform: translate(  -374%, 550%);
+    transform: translate(  -324%, 490%);
     height: auto;
-
+    width: 170px;
 }
 
 .simbolo{
@@ -208,9 +215,16 @@ main{
     color: #00000055;
     top: 54%;
     left: 76%;
-    transform: translate(  -369%, -630%);
+    transform: translate(  -361%, -630%);
     height: auto;
     width: 150px;
+
+}
+
+.fundo{
+    height: auto;
+    width: 400px;
+    transform: translate( -10%, 200%);
 
 }
 
@@ -220,7 +234,7 @@ main{
     color: #00000055;
     top: 54%;
     left: 76%;
-    transform: translate(  -210%, 930%);
+    transform: translate(  -180%, 1200%);
     height: auto;
     width: 260px;
 }
@@ -231,7 +245,7 @@ main{
     color: #00000055;
     top: 54%;
     left: 76%;
-    transform: translate(  -60%, 930%);
+    transform: translate(  -20%, 1200%);
     height: auto;
     width: 260px;
 
@@ -246,18 +260,22 @@ main{
     display: none;
 }
 
+.p{
+    display: none;
+}
+
 .fundo{
     position: absolute;
-    transform: translate(  -16%, 170%);
+    transform: translate(  -31%, 160%);
     height: auto;
-    width: 187px;
+    width: 230px;
 }
 
 .simbolo{
     position: absolute;
-    transform: translate(  -309%, -770%);
+    transform: translate(  -377%, -850%);
     height: auto;
-    width: 80px;
+    width: 70px;
 }
 
 .homem{
@@ -266,9 +284,9 @@ main{
     color: #00000055;
     top: 54%;
     left: 76%;
-    transform: translate(-51%, -57%);
+    transform: translate(-43%, -54.6%);
     height: auto;
-    width: 260%;
+    width: 1180px;
 }
 
 .compartilhar{
