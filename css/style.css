@@ -107,9 +107,9 @@ main{
     color: #00000055;
     top: 54%;
     left: 50%;
-    transform: translate(-550%, 1666%);
+    transform: translate(-650%, 1300%);
     height: auto;
-    width: 10pz;
+    width: 160px;
 }
 
 .trailer{
@@ -118,9 +118,9 @@ main{
     color: #00000055;
     top: 54%;
     left: 50%;
-    transform: translate( -400%, 1665%);
+    transform: translate( -450%, 1300%);
     height: auto;
-    width: 10pz;
+    width: 160px;
 }
 
 .compartilhar{
@@ -129,11 +129,11 @@ main{
     color: #00000055;
     top: 54%;
     left: 50%;
-    transform: translate( 330%, -710%);
+    transform: translate( 400%, -670%);
     height: auto;
-    width: 10pz;
+    width: 200px;
 }
-/** 1728 x 1117 **/
+
 
 
 /* 768 x 1024 */
